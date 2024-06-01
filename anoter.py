@@ -45,7 +45,7 @@ similarity_score = cosine_similarity(pt)
 
 
 # Another Recommendation Algorithm
-# For example, let's use a popularity-based recommender
+# using a popularity-based recommender
 def popularity_recommendation(num_recommendations=5):
     popular_books = popularity_df.sort_values('num_ratings', ascending=False).head(num_recommendations)
     return popular_books['Book-Title'].tolist()
