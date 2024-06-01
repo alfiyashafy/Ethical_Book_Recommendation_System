@@ -7,8 +7,8 @@ The Ethical Book Recommendation System is designed to provide users with persona
 Developing a book recommendation system involves several ethical challenges and considerations to ensure fairness, transparency, and respect for user privacy. Addressing these challenges is crucial for building a system that users can trust and rely on. Below are some of the key ethical considerations taken into account in this project:
 
 ### Transparency and Explainability
-### User Privacy and Data Security
 ### User Control and Feedback
+### User Privacy and Data Security
 ### Fairness and Bias
 ### Ethical Use of Algorithms
 
