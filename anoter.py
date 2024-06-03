@@ -11,6 +11,7 @@ books = pd.read_csv('Books.csv', dtype={'Year-Of-Publication': str, 'Book-Author
 users = pd.read_csv('Users.csv')
 ratings = pd.read_csv('Ratings.csv')
 
+# Pre-processing..
 # Merging data
 ratings_with_name = ratings.merge(books, on='ISBN')
 
@@ -44,7 +45,7 @@ pt.fillna(0, inplace=True)
 similarity_score = cosine_similarity(pt)
 
 
-# Another Recommendation Algorithm
+# Recommendation Algorithm
 # using a popularity-based recommender
 def popularity_recommendation(num_recommendations=5):
     popular_books = popularity_df.sort_values('num_ratings', ascending=False).head(num_recommendations)
