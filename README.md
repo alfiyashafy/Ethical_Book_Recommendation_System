@@ -8,8 +8,6 @@ Developing a book recommendation system involves several ethical challenges and 
 
 ### Transparency and Explainability
 ### User Control and Feedback
-### User Privacy and Data Security
-### Fairness and Bias
 ### Ethical Use of Algorithms
 
 ## Features
